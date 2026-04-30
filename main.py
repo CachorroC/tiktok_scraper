@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Lista de nombres de usuario de TikTok
 #usernames = ["interbancogt","banruralgt","bancoindustrial","gytcontinental","bam.guatemala","bantrabgt","bacgt","bancopromericagt"]
-usernames = ["bacgt","bancopromericagt"]
+usernames = ["thegarbagequeen"]
 
 def convert_views(views_str):
     if 'K' in views_str:
@@ -107,10 +107,10 @@ async def run(playwright, username):
 
     profile_filename = os.path.join(folder_name, f'{username}_perfil_{today}.xlsx')
     df_profile = pd.DataFrame([{
-        'Followers': followers, 
-        'Following': following, 
-        'Likes': likes, 
-        'Bio': bio, 
+        'Followers': followers,
+        'Following': following,
+        'Likes': likes,
+        'Bio': bio,
         'Profile Image': profile_image_filename,
         'id_perfil': username
     }])
