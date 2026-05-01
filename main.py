@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Lista de nombres de usuario de TikTok
 #usernames = ["interbancogt","banruralgt","bancoindustrial","gytcontinental","bam.guatemala","bantrabgt","bacgt","bancopromericagt"]
-usernames = ["thegarbagequeen"]
+usernames = ["thegarbagequeen", "queerbrownvegan", "pattiegonia", "eco_tok", "sambentley", "wawa_gatheru"]
 
 def convert_views(views_str):
     if 'K' in views_str:
